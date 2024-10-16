@@ -9,7 +9,7 @@ int peak(vector<int> nums){
 
     while(st <= end){
         int mid = st + (end - st)/2;
-        if(nums[mid] > nums[mid+1] && nums[mid] > mid -1){
+        if(nums[mid] > nums[mid+1] && nums[mid] > nums[mid -1]){
             return mid;
         }
         else if(nums[mid] > nums[mid -1]){
