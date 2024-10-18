@@ -1,3 +1,6 @@
+/*Assign c cows to n stalls such that min distance between them is largest possible. 
+positions of stalls are present in arr[] of length n.
+return largest possible distance */
 
 #include <algorithm>
 #include <iostream>
